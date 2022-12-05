@@ -66,39 +66,4 @@ public class ApplicationSecurityConfig {
         authProvider.setPasswordEncoder(passwordEncoder);
         return new ProviderManager(authProvider);
     }
-
-
-
-    /*
-    @Bean
-    public UserDetailsService userDetailsService() {
-        UserDetails tamerlan =
-                User
-                        .withUsername("tamerlan")
-                        .password(passwordEncoder.encode("password"))
-                        .authorities(STUDENT.getGrantedAuthorities()).build();
-//                        .roles(ADMIN.name()).build();
-
-        UserDetails linda =
-                User
-                        .builder()
-                        .username("linda")
-                        .password(passwordEncoder.encode("password123"))
-//                        .roles(STUDENT.name())
-                        .authorities(ADMIN.getGrantedAuthorities())
-                        .build();
-
-        UserDetails tomUser =
-                User
-                        .builder()
-                        .username("tom")
-                        .password(passwordEncoder.encode("password123"))
-//                        .roles(ADMINTRAINEE.name())
-                        .authorities(ADMINTRAINEE.getGrantedAuthorities())
-                        .build();
-
-        return new InMemoryUserDetailsManager(tamerlan, linda, tomUser);
-    }
-
-     */
 }
