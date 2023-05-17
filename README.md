@@ -37,7 +37,7 @@ This project demonstrates how to implement authentication and authorization usin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/spring-security-jwt.git
+   git clone https://github.com/tamerlankayak/SpringSecurityJWT.git
    ```
 
 2. Change to the project directory:
