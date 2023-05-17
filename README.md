@@ -78,11 +78,6 @@ This project demonstrates how to implement authentication and authorization usin
 
 3. Use a tool like Postman to interact with the API endpoints.
 
-### API Endpoints
-
-- `POST /api/auth/register`: Register a new user.
-- `POST /api/auth/login`: Authenticate a user and generate a JWT.
-- `GET /api/protected/resource`: Access a protected resource.
 
 Note: To access the protected resource, include the JWT in the request header using the `Authorization` header with the value `Bearer <JWT>`, where `<JWT>` is the token obtained after successful authentication.
 
