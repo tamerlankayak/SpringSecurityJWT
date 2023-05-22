@@ -91,9 +91,7 @@ Contributions are welcome! Please follow the steps below to contribute to this p
 4. Push to the branch: `git push origin my-branch-name`.
 5. Submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 ```
 
 Make sure to update the placeholders such as `your-username` in the clone URL and customize other sections according to your project. Also, remember to include the appropriate license file (e.g., `LICENSE`) in your repository.
