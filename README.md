@@ -28,6 +28,7 @@ This project demonstrates how to implement authentication and authorization usin
 
 ## Getting Started
 
+
 ### Prerequisites
 
 - Java Development Kit (JDK) 11 or higher
