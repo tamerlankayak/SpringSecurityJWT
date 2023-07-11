@@ -1,6 +1,6 @@
 # SpringSecurityJWT
 
-Code working.Solved problem in new version.
+Code working.Solved problem in new version. 
 
 
 ![Java_programming_language_logo svg](https://user-images.githubusercontent.com/29164777/226428545-6b06f2e2-99e3-40d9-a6d1-090e2ee94a70.png)
